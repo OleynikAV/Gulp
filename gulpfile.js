@@ -8,6 +8,7 @@ const del = require('del');
 const browserSync = require('browser-sync').create();
 const sourcemaps = require('gulp-sourcemaps');
 const sass = require('gulp-sass');
+const babel = require('gulp-babel');
 
 //Порядок подключения css файлов
 const cssFiles = [
@@ -51,6 +52,7 @@ function scripts() {
    //Шаблон для поиска файлов JS
    //Всей файлы по шаблону './src/js/**/*.js'
    return gulp.src(jsFiles)
+       .pipe(babel())
    //Объединение файлов в один
    .pipe(concat('script.js'))
    //Минификация JS
