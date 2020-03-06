@@ -1,50 +1,1 @@
-@media (max-width: 1200px){
-  header{
-  }
-  main{
-
-  }
-  footer{
-
-  }
-}
-@media (max-width: 992px){
-  header{
-  }
-  main{
-
-  }
-  footer{
-
-  }
-}
-@media (max-width: 768px){
-  header{
-  }
-  main{
-
-  }
-  footer{
-
-  }
-}
-@media (min-width: 576px) and (max-width: 767px){
-  header{
-  }
-  main{
-
-  }
-  footer{
-
-  }
-}
-//@media (min-width: 576px) and (max-width: 767px){
-//  header{
-//  }
-//  main{
-//
-//  }
-//  footer{
-//
-//  }
-//}
+@media (min-width: 1920px) {  main .bg_features {    background-repeat: inherit;  }}@media (min-width: 992px) and (max-width: 1170px) {  header {    .between {      display: flex !important;    }    .images_phone {      display: block !important;      img {        position: unset !important;      }    }    .sub_descrtiption {      margin-top: 150px !important;      padding-right: 15px !important;      .sub_title {        font-size: 31px !important;      }    }  }  main {    .bg_features {      .features {        .space {          display: flex !important;        }        .features_img {          display: block !important;          margin-left: 15px !important;        }      }    }    #row {      display: block;    }    #pricing_row {      display: flex;    }    .pricing {      .pricing_plan_bg {        width: 300px !important;        margin-left: auto !important;        margin-right: auto !important;      }    }    .screenshots .screenshots_slider {      margin: 50px 15px 150px 15px !important;    }    .screenshots .screenshots_slider .slick-next {      left: 60%;    }    .screenshots .screenshots_slider .slick-prev {      left: 40%;    }    #slick-slide10, #slick-slide11, #slick-slide12, #slick-slide13 {      max-width: 600px !important;      margin: 0 15px;    }  }  footer {    .row {      display: flex !important;    }    .social_lincks {      justify-content: center !important;      margin: 0 !important;      .facebook, .twitter, .instagram, .google, .behance, .dribbble {        padding: 0 25px !important;      }    }  }}@media (min-width: 768px) and (max-width: 1170px) {  main .screenshots .screenshots_slider .screenshots_slider_one img {    width: 100% !important;  }}@media (min-width: 540px) and (max-width: 1170px) {  header {  }  main {    .client {      .client_slider {        .client_slider_one {          margin: 0 auto !important;        }      }    }    .adress {      .contacts_rigth_section {        margin: 0 auto !important;      }    }    .screenshots .screenshots_slider .screenshots_slider_one {      width: auto !important;    }    .pricing, .pricing_plan_bg {      width: auto !important;    }  }  footer {    .copy {      text-align: center;    }  }}@media (min-width: 320px) and (max-width: 1170px) {  .slick-active {    img {      margin: 0 auto;    }  }  header, main, footer {    overflow: hidden;  }  header {    .last {      max-width: 240px;      width: 100%;      margin: 0 auto !important;    }    .container {      padding: 0;    }    .mobile {      position: relative;    }    .logo {      margin-top: 30px;      padding-left: 15px;    }    .menu {      position: fixed;      top: 30px;      right: 15px;      z-index: 50;    }    .menu__links {      margin-top: 80px;      padding-bottom: 50px;      .last {        margin: 0;        color: #4085f6;      }    }    .between {      display: block;    }    .images_phone {      display: none;    }    .sub_descrtiption {      text-align: center;      margin-top: 200px;      .sub_title {        font-size: 21px;      }      .adroid {        margin-left: auto;        margin-right: auto;        display: block;      }      .apple {        display: block;        margin: 0 auto;        margin-top: 80px;      }      .spacing {        padding: 0 15px;      }    }  }  main {    .container {      padding: 0;    }    .row {      display: block;    }    .about {      .about_description_one {        margin-right: auto;        margin-left: auto;      }      .about_title {        span {          padding: 0 15px;        }      }    }    .bg_features {      height: auto;      background: none;      background: linear-gradient(271.41deg, #4085f6 .52%, #1760d7 99.47%);    }    .bg_features .features {      padding-top: 50px;    }    .bg_features .features .features_title span {      font-size: 31px;    }    .bg_features .features .features_description {      padding: 0 5px;    }    .bg_features .features .features_img {      display: none;    }    .bg_features .features .features_description_section {      margin-top: 50px;      text-align: center;    }    .bg_features .features .features_description_section .features_description_section_one .features_description_img {      margin-right: 0;      margin-bottom: 20px;    }    .bg_features .features .features_description_section .features_description_section_two .features_description_img {      margin-right: 0;      margin-bottom: 20px;    }    .bg_features .features .features_description_section .features_description_section_three .features_description_img {      margin-right: 0;      margin-bottom: 20px;    }    .bg_features .features .features_description_section .features_description_section_foo {      padding-bottom: 50px;    }    .bg_features .features .features_description_section .features_description_section_foo .features_description_img {      margin-right: 0;      margin-bottom: 20px;    }    .features_description_text {      padding: 0 10px;    }    .pricing {      padding-top: 100px;      .pricing_text {        padding: 0 10px;      }      .pricing_plan_bg {        width: 300px;        margin: 0 auto;        margin-top: 90px;      }    }    .screenshots {      .screenshots_text {        padding: 0 10px;      }      .screenshots_slider {        margin: 0;        margin-top: 50px;        .screenshots_slider_one {          width: 300px;          margin: 0 auto;          img {            width: 300px;          }        }      }    }    .client {      .client_slider {        .client_slider_one {          margin: 0 10px;        }        .client_slayder_description {          span {            padding-left: 35px;            padding-right: 35px;            &:before {              left: 0;            }          }        }      }    }    .adress {      .adress_text {        span {          display: inline-block;          padding: 0 10px;        }      }      .contacts_adress {        padding: 0;      }      .contacts_left_section {        margin: 0 auto;        margin-bottom: 30px;      }      .contacts_rigth_section {        margin: 0 auto;        overflow: hidden;        form {          text-align: center;          padding-bottom: 50px;        }      }    }  }  footer {    .container {      padding: 0;    }    .row {      display: block;    }    .copy {      padding-left: 15px;    }    .social_lincks {      justify-content: space-between;      display: flex;      padding: 0 15px;      margin-top: 30px;      a {        span {          padding: 0 !important;        }      }    }  }}
