@@ -1,2 +1,2 @@
 npm install - установка npm  
-gulp dev - запуск gulp "# uinex" 
+gulp dev - запуск gulp 
